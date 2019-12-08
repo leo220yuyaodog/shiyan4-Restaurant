@@ -1,0 +1,187 @@
+# depslib dependency file v1.0
+1575400397 source:e:\cpp\restaurant\restaurant\main.c
+	"Restaurant.h"
+
+1575472213 e:\cpp\restaurant\restaurant\restaurant.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	<time.h>
+	<math.h>
+	<windows.h>
+	"pwd.h"
+	"tablelist.h"
+	"menulist.h"
+	"orderlist.h"
+	"dishlist.h"
+
+1575555627 source:e:\cpp\restaurant\restaurant\pwd.c
+	"Restaurant.h"
+
+1575009164 source:e:\cpp\restaurant\restaurant\encypto.c
+
+1575009154 source:e:\cpp\restaurant\restaurant\decypto.c
+
+1575225353 e:\cpp\restaurant\restaurant\pwd.h
+
+1575566950 source:e:\cpp\restaurant\restaurant\tablemgr.c
+	"Restaurant.h"
+	"globel.h"
+
+1575086320 source:e:\cpp\restaurant\restaurant\otherfunc.c
+	"Restaurant.h"
+
+1575305288 e:\cpp\restaurant\restaurant\tablelist.h
+	"globel.h"
+
+1575565902 source:e:\cpp\restaurant\restaurant\menumgr.c
+	"Restaurant.h"
+	"globel.h"
+
+1575251888 e:\cpp\restaurant\restaurant\menulist.h
+
+1575566353 source:e:\cpp\restaurant\restaurant\accountmgr.c
+	"Restaurant.h"
+
+1575309900 e:\cpp\restaurant\restaurant\account.h
+
+1575565437 source:e:\cpp\restaurant\restaurant\order.c
+	"Restaurant.h"
+	"globel.h"
+
+1575392102 e:\cpp\restaurant\restaurant\globel.h
+
+1575552959 source:e:\cpp\restaurant\restaurant\menulist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"globel.h"
+
+1575555627 source:e:\cpp\restaurant\restaurant\tablelist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"globel.h"
+
+1575221648 e:\cpp\restaurant\restaurant\tablelist.c
+	<stdio.h>
+	<stdlib.h>
+	"globel.h"
+
+1575221754 e:\cpp\restaurant\restaurant\menulist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"globel.h"
+
+1575541716 source:e:\cpp\restaurant\restaurant\account.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"globel.h"
+
+1575392102 e:\cpp\restaurant\restaurant\orderlist.h
+
+1575565437 source:e:\cpp\restaurant\restaurant\calculate.c
+	"Restaurant.h"
+	"globel.h"
+
+1575565752 source:e:\cpp\restaurant\restaurant\orderlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"globel.h"
+
+1575553909 source:e:\cpp\restaurant\restaurant\seedishrank.c
+	"Restaurant.h"
+	"globel.h"
+
+1575400069 e:\cpp\restaurant\restaurant\dishlist.h
+
+1575481883 source:e:\cpp\restaurant\restaurant\dishlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"globel.h"
+
+1575797806 source:e:\cpp\restaurant\restaurant_0.2\accountmgr.c
+	"Restaurant.h"
+
+1575811782 e:\cpp\restaurant\restaurant_0.2\restaurant.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	<time.h>
+	<math.h>
+	<windows.h>
+	"pwd.h"
+	"tablelist.h"
+	"menulist.h"
+	"orderlist.h"
+
+1575225353 e:\cpp\restaurant\restaurant_0.2\pwd.h
+
+1575808704 e:\cpp\restaurant\restaurant_0.2\tablelist.h
+	"globel.h"
+
+1575717254 e:\cpp\restaurant\restaurant_0.2\globel.h
+
+1575808704 e:\cpp\restaurant\restaurant_0.2\menulist.h
+
+1575649218 e:\cpp\restaurant\restaurant_0.2\orderlist.h
+
+1575644110 e:\cpp\restaurant\restaurant_0.2\dishlist.h
+
+1575814140 source:e:\cpp\restaurant\restaurant_0.2\calculate.c
+	"Restaurant.h"
+	"globel.h"
+
+1575643619 source:e:\cpp\restaurant\restaurant_0.2\dishlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"globel.h"
+
+1575814806 source:e:\cpp\restaurant\restaurant_0.2\main.c
+	"Restaurant.h"
+
+1575809254 source:e:\cpp\restaurant\restaurant_0.2\menulist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"globel.h"
+
+1575814695 source:e:\cpp\restaurant\restaurant_0.2\menumgr.c
+	"Restaurant.h"
+	"globel.h"
+
+1575811970 source:e:\cpp\restaurant\restaurant_0.2\order.c
+	"Restaurant.h"
+	"globel.h"
+
+1575732068 source:e:\cpp\restaurant\restaurant_0.2\orderlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"globel.h"
+
+1575817071 source:e:\cpp\restaurant\restaurant_0.2\pwd.c
+	"Restaurant.h"
+
+1575799041 source:e:\cpp\restaurant\restaurant_0.2\seedishrank.c
+	"Restaurant.h"
+	"globel.h"
+
+1575809254 source:e:\cpp\restaurant\restaurant_0.2\tablelist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"globel.h"
+
+1575814587 source:e:\cpp\restaurant\restaurant_0.2\tablemgr.c
+	"Restaurant.h"
+	"globel.h"
+
