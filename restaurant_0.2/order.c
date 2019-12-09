@@ -5,7 +5,7 @@ typedef struct tempmenu//ºóÃæµã²ËµÄÊ±ºò»áÏß°ÑmenuÎÄ¼şÀïÃæµÄ¶«Î÷¶Áµ½ÕâÖĞtempmenuÀ
 {
     int tid;//ÔÚµã²ËÖ®Ç°£¬¿Ï¶¨ÒÑ¾­µÃµ½ÁË×ÀºÅ£¬´æµ½ÕâÀï
     int id;//²ËÆ·±àºÅ
-    char name[22];//²ËÃû
+    char name[22];//²ËÃûs
     float money;//µ¥¼Û
     int times;//ÔÚ±¾×À±»µãµÄ´ÎÊı
 } TMENU;
@@ -157,23 +157,6 @@ int inputselect2()//Õâ¸ö¸ºÔğ¼ì²âÕûÊıµÄÊäÈë£¬·Ç·¨ÊäÈë·µ»Ø-1£¬·ñÔò·µ»ØÕâ¸öÊı
     return atoi(in);//¹ıÁËÉÏÃæµÄ¼ì²é£¬Ó¦¸Ã¾ÍÊÇ¸öÊıÁË£¬ÓÃatoi°Ñ×Ö·û´®×ª³ÉÊı×Ö
 }
 
-int inputselect4()//inputselect2µÄ·­°æ£¬Ö»²»¹ı²»ÔÊĞíÊäÈë0
-{
-    char in[11];
-    scanf("%9s", in);
-    fflush(stdin);
-    int i;
-    for(i = 0; i < strlen(in); i++)
-    {
-        if(in[i] < 49 || in[i] > 57)
-        {
-            return -1;
-        }
-    }
-
-    return atoi(in);
-}
-
 
 int checktable()//¼ì²étableÎÄ¼şÊÇ·ñÎª¿Õ£¬Èç¹û´ò¿ªÊ§°Ü£¬·µ»Ø-1£¬Èç¹ûÎª¿Õ£¬·µ»Ø0
 {
@@ -237,8 +220,8 @@ void order()//ÕıÆ¬¿ªÊ¼
     else
     {
         printf("%s", "ÇëÊäÈëÀ´¿ÍÈËÊı£º");
-        int peoplenum = inputselect4();//ÊäÈëÀ´¿ÍÈËÊı
-        if(peoplenum==-1)
+        int peoplenum = inputselect2();//ÊäÈëÀ´¿ÍÈËÊı
+        if(peoplenum==-1||peoplenum==0)
         {
             puts("ÊäÈë³ö´í£¡");
             system("pause");

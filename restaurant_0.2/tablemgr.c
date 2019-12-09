@@ -171,7 +171,7 @@ void deltable()//删除桌子
     {
         printf("\n%s", "请输入要删除的桌子的编号：");
 
-        int delid = inputselect4();
+        int delid = inputselect2();
         if(delid == -1)
         {
             puts("输入出错！");
@@ -181,8 +181,9 @@ void deltable()//删除桌子
         int s = deletetable(&tablehead, delid);//删除节点，若成功，返回0，若桌子仍被占用，返回-1，若没找到，返回-2
         if (s == 0)
         {
-            printf("%d号桌子已经删除\n", delid);
             system("cls");
+            printf("%d号桌子已经删除\n", delid);
+
 
             writetable(tablehead);//将内存写入文件
             delalltable(&tablehead);//摧毁链表，释放空间

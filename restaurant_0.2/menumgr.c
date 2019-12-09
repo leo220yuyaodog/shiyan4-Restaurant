@@ -224,8 +224,8 @@ void delmenu()
     if (menuhead != NULL)
     {
         printf("\n%s", "请输入要删除的菜品的编号：");
-        int delid = inputselect4();
-        if(delid == -1)
+        int delid = inputselect2();
+        if(delid == -1||delid==0)
         {
             puts("输入出错！");
             system("pause");

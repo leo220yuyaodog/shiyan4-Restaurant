@@ -6,8 +6,8 @@ void calculate()//正片开始
     system("cls");
     printf("%s", "请输入桌号：");
 
-    int seetableid = inputselect4();//输入检测
-    if(seetableid == -1)
+    int seetableid = inputselect2();//输入检测
+    if(seetableid == -1||seetableid==0)
     {
         puts("输入出错");
         system("pause");

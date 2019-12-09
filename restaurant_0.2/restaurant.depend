@@ -131,11 +131,11 @@
 
 1575808704 e:\cpp\restaurant\restaurant_0.2\menulist.h
 
-1575649218 e:\cpp\restaurant\restaurant_0.2\orderlist.h
+1575817323 e:\cpp\restaurant\restaurant_0.2\orderlist.h
 
 1575644110 e:\cpp\restaurant\restaurant_0.2\dishlist.h
 
-1575814140 source:e:\cpp\restaurant\restaurant_0.2\calculate.c
+1575901040 source:e:\cpp\restaurant\restaurant_0.2\calculate.c
 	"Restaurant.h"
 	"globel.h"
 
@@ -154,15 +154,15 @@
 	<string.h>
 	"globel.h"
 
-1575814695 source:e:\cpp\restaurant\restaurant_0.2\menumgr.c
+1575901040 source:e:\cpp\restaurant\restaurant_0.2\menumgr.c
 	"Restaurant.h"
 	"globel.h"
 
-1575811970 source:e:\cpp\restaurant\restaurant_0.2\order.c
+1575901040 source:e:\cpp\restaurant\restaurant_0.2\order.c
 	"Restaurant.h"
 	"globel.h"
 
-1575732068 source:e:\cpp\restaurant\restaurant_0.2\orderlist.c
+1575817323 source:e:\cpp\restaurant\restaurant_0.2\orderlist.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -181,7 +181,7 @@
 	<string.h>
 	"globel.h"
 
-1575814587 source:e:\cpp\restaurant\restaurant_0.2\tablemgr.c
+1575901284 source:e:\cpp\restaurant\restaurant_0.2\tablemgr.c
 	"Restaurant.h"
 	"globel.h"
 

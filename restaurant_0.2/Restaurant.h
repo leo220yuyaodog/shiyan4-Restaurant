@@ -19,7 +19,6 @@ void mainmenu();
 void otherfunc();
 int inputselect1();
 int inputselect2();
-int inputselect4();
 
 void tablemgr();
 void menumgr();
